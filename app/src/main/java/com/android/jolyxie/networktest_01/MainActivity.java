@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void run() {
-            String data = getURLResponse("http://www.baidu.com");
+            //String data = getURLResponse("http://www.baidu.com");
             //String data = get("http://www.baidu.com");
             resultStr = data;
             handler.post(new Runnable() {
